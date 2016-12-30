@@ -1,0 +1,20 @@
+{
+  "name": "linux-authenticator",
+  "description": "A linux authenticator for altdispenser.net - Built using Electron.",
+  "version": "0.0.1",
+  "author": "xboy_the_memer",
+  "main": "main.js",
+  "build": {
+    "appId": "altdispenser-linux-authenticator"
+  },
+  "scripts": {
+    "pack": "build --dir",
+    "dist": "build"
+  },
+  "devDependencies": {
+    "electron-builder": "^10.15.1",
+    "electron-prebuilt": "^1.4.13",
+    "electron-sudo": "^4.0.12",
+    "sudo-prompt": "^6.2.1"
+  }
+}

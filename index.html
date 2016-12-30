@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Linux Authenticator - AltDispenser</title>
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    </head>
+
+    <body style="padding-top: 30px;">
+        <div class="container">
+            <button class="btn btn-success" onclick="executeActivation()">Activate</button>
+
+            <button class="btn btn-danger" onclick="executeDeactivation()">Deactivate</button>
+
+            <hr>
+            <pre id="output"></pre>
+        </div>
+
+        <script type="text/javascript">
+            let scriptsUtil = require("./index.js")
+
+            let out = function(str) {
+                document.getElementById('output').innerHTML = str;
+            }
+
+            executeActivation = function() {
+                scriptsUtil.executeActivation(out);
+            }
+
+            executeDeactivation = function() {
+                scriptsUtil.executeDeactivation(out);
+            }
+        </script>
+    </body>
+</html>
