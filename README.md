@@ -6,7 +6,7 @@ A really simple Electron application that shows two buttons.
 
 Screenshot:
 
-![](https://raw.githubusercontent.com/supercheese200/altdispenser-linux-authenticator/master/readme-assets/2016-12-30-20%3A07%3A44.png)
+![](https://raw.githubusercontent.com/Warthelm/altdispenser-linux-authenticator/master/readme-assets/screenshot.jpg)
 
 **REQUIRES ROOT TO RUN**
 Run the program with: `sudo electron .`
