@@ -22,19 +22,19 @@
         </div>
 
         <script type="text/javascript">
-            let scriptsUtil = require("./index.js")
+            let scriptsUtil = require("./index.js");
 
             let out = function(str) {
                 document.getElementById('output').innerHTML = str;
-            }
+            };
 
             executeActivation = function() {
                 scriptsUtil.executeActivation(out);
-            }
+            };
 
             executeDeactivation = function() {
                 scriptsUtil.executeDeactivation(out);
-            }
+            };
         </script>
     </body>
 </html>
