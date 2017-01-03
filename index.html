@@ -17,14 +17,17 @@
                     <button class="btn btn-block btn-danger" onclick="executeDeactivation()">Deactivate</button>
                 </div>
             </div>
-            <hr>
-            <pre id="output"></pre>
+            <div style="display: none;" id="output-container">
+                <hr>
+                <pre id="output"></pre>
+            </div>
         </div>
 
         <script type="text/javascript">
             let scriptsUtil = require("./index.js");
 
             let out = function(str) {
+                document.getElementById('output-container').style.display = 'block';
                 document.getElementById('output').innerHTML = str;
             };
 
