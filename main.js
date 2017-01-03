@@ -7,7 +7,7 @@ const url = require("url");
 let win; // Store a reference to the BrowserWindow object in order to not have it be garbage collected.
 
 function createWindow() {
-    win = new BrowserWindow({width: 600, height: 200});
+    win = new BrowserWindow({width: 675, height: 215});
     win.setMenuBarVisibility(false);
 
     win.loadURL(url.format({
