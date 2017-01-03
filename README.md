@@ -11,7 +11,8 @@ A really simple Electron application which provides two buttons to activate and 
 `$JAVA_HOME` should point to /path/to/java/***jre***  
 Ex: `/usr/lib/jvm/java-1.8.03/jre`
 
-Screenshot:
+**Screenshot:** 
+ 
 ![](https://raw.githubusercontent.com/Warthelm/altdispenser-linux-authenticator/master/readme-assets/screenshot.jpg)
 
 **REQUIRES ROOT TO RUN**
