@@ -9,10 +9,14 @@
 
     <body style="padding-top: 30px;">
         <div class="container">
-            <button class="btn btn-success" onclick="executeActivation()">Activate</button>
-
-            <button class="btn btn-danger" onclick="executeDeactivation()">Deactivate</button>
-
+            <div class="row">
+                <div class="col-xs-6">
+                    <button class="btn btn-block btn-success" onclick="executeActivation()">Activate</button>
+                </div>
+                <div class="col-xs-6">
+                    <button class="btn btn-block btn-danger" onclick="executeDeactivation()">Deactivate</button>
+                </div>
+            </div>
             <hr>
             <pre id="output"></pre>
         </div>
