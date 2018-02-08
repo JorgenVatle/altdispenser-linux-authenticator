@@ -4,7 +4,7 @@ A linux authenticator for [altdispenser.net](https://altdispenser.net/) - Built 
 
 A really simple Electron application which provides two buttons to activate and deactivate Alt Dispenser's authentication servers for your Minecraft launcher.
 
-####Requirements:
+#### Requirements:
 - Java JDK 6 or greater.
 - A Defined `$JAVA_HOME` environment variable.
 
